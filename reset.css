@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
