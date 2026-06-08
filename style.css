@@ -39,7 +39,7 @@ body{
     color: var(--color-secondary-green-400);
     font-weight: 700;
     font-size: 0.85rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 .top-description{
     color: var(--color-neutral-gray-500);
@@ -52,6 +52,9 @@ body{
 .bottom-side{
     /*display: flex;
     flex-direction: column;*/
+    border-bottom-left-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+    overflow: hidden;
 }
 .left-side{
     background: var(--color-primary-blue-500);
@@ -98,8 +101,7 @@ body{
     background: hsla(179, 62%, 43%, 0.699);
     padding: 1.5rem;
     color: #fff;
-    border-bottom-left-radius: .4rem;
-    border-bottom-right-radius: .4rem;
+    
 }
 .right-title{
     font-size: 0.85rem;
@@ -126,18 +128,46 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .top-title{
+        color: var(--color-primary-blue-500);
+        font-size: 1.5rem;
+        font-weight: 700;
+}
+.top-info{
+    color: var(--color-secondary-green-400);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.top-description{
+    color: var(--color-neutral-gray-500);
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
     .bottom-side{
         display: flex;
+        
     }
+    .left-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.left-price .price{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.left-price .price-period{
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    color: var(--color-neutral-teal2-100);
+}
+.left-description{
+    font-size: 0.75rem;
+    color: var(--color-neutral-teal-100);
+}
     .left-side,
     .right-side{
         flex: 1;
     }
-    .left-side{
-        border-bottom-left-radius: .4rem;
-    }
-    .right-side{
-        
-        border-bottom-right-radius: .4rem;
-    }
+    
 }
